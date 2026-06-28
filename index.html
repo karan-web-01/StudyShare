@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyShare - Smart Notes Exchange</title>
+    <meta name="description" content="Share and download student notes across semesters with StudyShare.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">📚 StudyShare</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="upload.html">Upload Notes</a></li>
+                <li><a href="browse.html">Browse Notes</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Upload Notes, Download Notes, Learn Together</h1>
+            <p>A smart platform where students can share notes, and help others learn.</p>
+            <a href="upload.html" class="btn">Get Started</a>
+        </section>
+        <section class="features">
+            <h2>Why Choose StudyShare?</h2>
+            <div class="feature-container">
+                <div class="card">
+                    <h3>📤 Upload Notes</h3>
+                    <p>Share your notes with other students and help them learn.</p>
+                </div>
+                <div class="card">
+                    <h3>📥 Download Notes</h3>
+                    <p>Download quality notes uploaded by students from different semesters.</p>
+                </div>
+                <div class="card">
+                    <h3>🔍 Smart Search</h3>
+                    <p>Search notes by subject, semester or branch in seconds.</p>
+                </div>
+            </div>
+        </section>
+        <section class="latest-notes">
+            <h2>Latest Notes</h2>
+            <div class="notes-container">
+                <div class="note-card">
+                    <h3>🌐 HTML & CSS</h3>
+                    <p><strong>Semester:</strong> 2nd</p>
+                    <p><strong>Uploader:</strong> Karan</p>
+                    <button type="button" onclick="downloadDone('HTML & CSS')">Download</button>
+                </div>
+                <div class="note-card">
+                    <h3>🐍 Python Programming</h3>
+                    <p><strong>Semester:</strong> 2nd</p>
+                    <p><strong>Uploader:</strong> Sasuke</p>
+                    <button type="button" onclick="downloadDone('Python Programming')">Download</button>
+                </div>
+                <div class="note-card">
+                    <h3>💻 C Programming</h3>
+                    <p><strong>Semester:</strong> 1st</p>
+                    <p><strong>Uploader:</strong> Obito</p>
+                    <button type="button" onclick="downloadDone('C Programming')">Download</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>Designed by <strong>Karan Kumar</strong> • StudyShare © 2026</footer>
+    <script src="script.js"></script>
+</body>
+</html>

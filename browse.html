@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Notes | StudyShare</title>
+    <meta name="description" content="Browse shared student notes and download documents on StudyShare.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">📚 StudyShare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html">Upload</a></li>
+                <li><a href="browse.html" class="active">Browse</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="section">
+        <h1>Browse Notes</h1>
+        <div class="note">
+            <span>Engineering Mathematics</span>
+            <button type="button" onclick="downloadDone('Engineering Mathematics')">Download</button>
+        </div>
+        <div class="note">
+            <span>HTML & CSS</span>
+            <button type="button" onclick="downloadDone('HTML & CSS')">Download</button>
+        </div>
+        <div class="note">
+            <span>Python</span>
+            <button type="button" onclick="downloadDone('Python')">Download</button>
+        </div>
+    </main>
+    <footer>Designed by <strong>Karan Kumar</strong> • StudyShare © 2026</footer>
+    <script src="script.js"></script>
+</body>
+</html>

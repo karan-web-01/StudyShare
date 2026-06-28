@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Notes | StudyShare</title>
+    <meta name="description" content="Upload your notes and share them with other students on StudyShare.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">📚 StudyShare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html" class="active">Upload</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="section">
+        <h1>Upload Notes</h1>
+        <form class="upload-form" onsubmit="uploadDone(); return false;">
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" placeholder="Enter your Subject" required>
+            </div>
+            <div class="form-group">
+                <label for="semester">Semester</label>
+                <input id="semester" name="semester" type="text" placeholder="Enter your Semester" required>
+            </div>
+            <div class="form-group">
+                <label for="uploader">Your Name</label>
+                <input id="uploader" name="uploader" type="text" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="notes-file">Select file</label>
+                <input id="notes-file" name="notes-file" type="file" required>
+            </div>
+            <button class="btn" type="submit">Upload</button>
+        </form>
+    </main>
+    <footer>Designed by <strong>Karan Kumar</strong> • StudyShare © 2026</footer>
+    <script src="script.js"></script>
+</body>
+</html>
